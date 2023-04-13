@@ -48,7 +48,7 @@ public class task1 {
     }
 
     // Исполняемая программа
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
         int number = getNumber();
         String name = getString();
         System.out.println("Вы ввели число: " + number); //  Запуск метода № 1

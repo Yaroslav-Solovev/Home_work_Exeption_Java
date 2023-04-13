@@ -17,7 +17,7 @@ public class task3 {
         return resultArray;
     }
     // Исполняемая программа
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
                 
         int[] resultArray = getArray();
         for(int i: resultArray)

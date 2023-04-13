@@ -15,7 +15,7 @@ public class task2 {
     }
     
     // Исполняемая программа
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
         int[] resultArray = getArray();
         for(int i: resultArray)
             System.out.print(i + " ");
