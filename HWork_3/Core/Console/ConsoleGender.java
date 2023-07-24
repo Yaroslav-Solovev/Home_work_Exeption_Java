@@ -7,9 +7,9 @@ public class ConsoleGender {
     public static ConsoleLine consoleLine = new ConsoleLine();
 
     public String getStrGender() throws Exception { //** Метод проверки на ввод Gender (f/m) */
-        String strGender = consoleLine.getString();
-        if(strGender != "f" || strGender != "m"){
-            throw new IllegalArgumentException("Error: Неверно ввели значение!");
+        String strGender = scanner.nextLine();
+        if(!strGender.equals("f") && !strGender.equals("m")){
+            throw new Error("Error: Вы ввели неверное значение!");
         }
         return strGender;
     }

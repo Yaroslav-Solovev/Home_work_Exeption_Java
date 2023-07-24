@@ -6,9 +6,14 @@ public class ConsoleNumber {
     static Scanner scanner = new Scanner(System.in);
     
     public Integer getNum() throws Exception {  //** Метод проверки на ввод числа с консоли на ошибку */
-        if (!scanner.hasNextInt()) {
-            throw new RuntimeException("Error: Вы ввели не число!");
+        Integer number = scanner.nextInt();
+        if (hasNextInt(number) == true || number <= 0) {
+            throw new RuntimeException("Error: Не верно введены данные!");
         }
-        return scanner.nextInt();
+        return number;
+    }
+
+    private boolean hasNextInt(Integer number) {
+        return false;
     }
 }
