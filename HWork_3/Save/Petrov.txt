@@ -1,2 +1,2 @@
-ID: 1, Surname: Petrov, Name: Ivan, Patronymic: Alexandrovich, Date birth: 07.09.2001, Phone number: 341223, Gender: m.
-ID: 1, Surname: Petrov, Name: Dmitry, Patronymic: Sergeevich, Date birth: 23.12.1995, Phone number: 89323451232, Gender: m.
+ID: null, Surname: Petrov, Name: Ivan, Patronymic: Alexandrovich, Date birth: 07.09.2001, Gender: m., Phone number: 341223. 
+ID: null, Surname: Petrov, Name: Dmitry, Patronymic: Sergeevich, Date birth: 23.12.1995, Gender: m., Phone number: 89323451232.

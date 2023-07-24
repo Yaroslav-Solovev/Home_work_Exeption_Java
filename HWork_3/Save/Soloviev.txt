@@ -1,1 +1,1 @@
-ID: 1, Surname: Soloviev, Name: Yaroslav, Patronymic: Alexandrovich, Date birth: 14.05.1986, Phone number: 863412, Gender: m.
+ID: null, Surname: Soloviev, Name: Yaroslav, Patronymic: Alexandrovich, Date birth: 14.05.1986, Gender: m., Phone number: 863412.
